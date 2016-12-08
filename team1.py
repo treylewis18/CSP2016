@@ -6,7 +6,7 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'Please update already'  # Only 10 chars displayed - "100 crew" is desired name
+team_name = '100 crew'  # Only 10 chars displayed
 strategy_name = ''
 strategy_description = ''
     
@@ -27,7 +27,6 @@ def move(my_history, their_history, my_score, their_score):
     # Decide whether to return 'c' or 'b'.
     
     return 'c'
-
     
 def test_move(my_history, their_history, my_score, their_score, result):
     '''calls move(my_history, their_history, my_score, their_score)
